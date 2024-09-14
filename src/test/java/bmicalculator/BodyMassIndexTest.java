@@ -38,7 +38,6 @@ public class BodyMassIndexTest {
     }
 
     @Parameters({"browser"})
-
     @BeforeMethod
     void openBrowser(String browser) {
         Browser.launchBrowser(browser);
