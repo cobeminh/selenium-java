@@ -1,0 +1,8 @@
+<suite name=" Web Table on Browser Test Plan">
+    <test name="Chrome">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name ="theinternet.WebTablesTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+<suite name="Body Mass Index Test">
+    <test name="Metric Unit on Chrome">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="bmicalculator.BodyMassIndexTest"/>
+        </classes>
+    </test>
+</suite>

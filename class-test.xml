@@ -1,0 +1,13 @@
+<suite name="Smoke Test">
+    <test name="Demo">
+        <groups>
+            <run>
+                <exclude name="smoke-test"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="classtest.Class1Test"/>
+            <class name="classtest.Class2Test"/>
+        </classes>
+    </test>
+</suite>

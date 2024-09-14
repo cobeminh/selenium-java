@@ -1,0 +1,7 @@
+<suite name="The Internet Test Plan">
+    <test name="regression test">
+        <packages>
+            <package name="theinternet"/>
+        </packages>
+    </test>
+</suite>

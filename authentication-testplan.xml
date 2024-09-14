@@ -1,0 +1,8 @@
+<suite name="formAuthenticationTest">
+    <test name="login">
+        <classes>
+            <class name="theinternet.formAuthenticationTest"/>
+            <class name="theinternet.TC04_HyperlinkTest"/>
+        </classes>
+    </test>
+</suite>
