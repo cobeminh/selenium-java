@@ -34,7 +34,7 @@ public class WebTablesTest {
     @Test
     void verifyMaxDuePerson() {
         Assert.assertEquals(
-                webTablesPage.getMaxDuePerson().stream().map(Person::getFullname).toList(), List.of("Deo Jason")
+                webTablesPage.getMaxDuePerson().stream().map(Person::getFullname).toList(), List.of("Doe Jason")
         );
     }
 
