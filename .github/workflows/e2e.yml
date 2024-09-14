@@ -13,6 +13,10 @@ permissions:
   id-token: write
   contents: write
   checks: write
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 jobs:
   build:
 
@@ -55,6 +59,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       if: always()
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
         publish_dir: allure-history
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
