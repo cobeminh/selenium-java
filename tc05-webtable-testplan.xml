@@ -2,7 +2,7 @@
     <test name="Chrome">
         <parameter name="browser" value="Chrome"/>
         <classes>
-            <class name ="theinternet.WebTablesTest"/>
+            <class name ="theinternet.TC05_WebTablesTest"/>
         </classes>
     </test>
 </suite>

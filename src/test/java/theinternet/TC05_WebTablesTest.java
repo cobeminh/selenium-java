@@ -15,7 +15,7 @@ import java.util.List;
 
 import static supports.Browser.*;
 
-public class WebTablesTest {
+public class TC05_WebTablesTest {
 
     TC05_WebTablesPage webTablesPage;
 
